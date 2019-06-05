@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+       <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Project</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+<style type="text/css">
+	body {
+		background-color: grey;
+    }
+.logo {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Netflix_meaningful_logo.svg/120px-Netflix_meaningful_logo.svg.png");
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+.wrapper{
+  width:800px;
+  height:500px;
+  margin: 0 auto;
+  background-image: url("https://geniusenglish.ru/wp-content/uploads/2017/10/Anglijskij-s-filmami-i-serialami-1080x675.jpg");
+}
+ul {
+  margin: 0 auto;
+}
+ul li { 
+  display: inline-block;
+  padding: 100px 5px; 
+  font-style: oblique;
+  color: white;
+  margin-top: -40px;
+  }
+.flex-container1 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width:800px;
+  height: 150px;
+  margin:0 auto;
+  background-color: #A9A9A9;
+  }
+  #cont {
+  width: 100%; 
+  height: 100px;
+  background-image: url("https://geniusenglish.ru/wp-content/uploads/2017/10/Anglijskij-s-filmami-i-serialami-1080x675.jpg");
+  margin-top: 150px;
+}
+.team {
+  margin-top: 50px;
+}
+.hr {
+  color: #FFD700;
+  width: 60px;
+  border: 3px solid #FFD700;
+  margin: 0 auto;
+  }
+  .flex-container2 {
+  flex-direction: column;
+  }
+.flex-container2 {
+  padding-bottom: 80px;
+  }
+  h1 { 
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+
+  }
+  h2, h3 { 
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color:  #B22222;
+  }
+  .flex-container3, .flex-container4 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  margin: 0 auto;
+  }
+  #abz {
+  padding: 50px 50px 0px 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  }
+  #pic, #pic1 {
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 0 auto;	
+  }
+ .welcome {
+ 	padding-top: 150px;
+ }
+ #circle1 {
+ 	background-image: url("https://fanparty.ru/fanclubs/the-world-of-fantasy/gallery/2020560_the_world_of_fantasy_medium.jpg");
+ }
+  #circle2 {
+ 	background-image: url("https://poncy.ru/media/uploads/dict/d/r/drama.jpg");
+ }
+  #circle3 {
+ 	background-image: url("data:image/jpeg;base64,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");
+ }
+ #circle4 {
+ 	background-image: url("https://poncy.ru/media/uploads/dict/b/e/bembi5.jpg");
+ }
+ #pic {
+ 	background-image: url("http://film-like.com/images/spisok/thumb/123.jpg");
+ }
+ #pic1 {
+ 	background-image: url("http://film-like.com/images/spisok/thumb/675.jpg");
+ }
+ #carouselExampleSlidesOnly {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+ }
+ @media screen and (max-width: 960px){
+  .flex-container3, .flex-container4, ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex-container1, .flex-container2, ul{
+    margin: 0 auto;
+    margin-top: : 50px;
+  }
+ @media screen and (max-width: 960px){ .flex-container1{  
+  padding-top: 10px;
+    }
+    ul li {
+      padding: 20px;
+    }
+    ul {
+      margin-top: 20px;
+    }
+  
+  @media screen and (max-width: 960px){
+    .welcome, .wrapper, .flex-container1, .flex-container2,#carouselExampleSlidesOnly{
+      width: 100%;
+      margin: 0 auto;
+    }
+</style>
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div class="flex-container">
+<div class="flex-container1">
+  <div class="logo"></div>
+      <ul>
+  <li><a href="#1"><button type="button" class="btn btn-danger">HOME</button></a></li>
+  <li><a href="#2"><button type="button" class="btn btn-danger">MOVIES</button></a></li>
+  <li><a href="#3"><button type="button" class="btn btn-danger">TV SERIES</button></a></li>
+  <li><a href="#4"><button type="button" class="btn btn-danger">GALLERY</button></a></li>
+    </ul>
+   
+  </div>
+  <div class="wrapper"> 
+  <h1 class="welcome"><a name = "1">WELCOME ON MOVIEWORLD</h1>
+  <p id="abz">WATCH ANYWHERE. WATCH EVERYTHING. CANCEL ANYTIME. 
+  </p>
+  </div>
+  <div class="flex-container2">
+    <div id="cont"> <h1 class="team"><a name = "2">MOVIES</h1><div>
+    <div class="hr"> </div></div>
+    </div>
+<div class="flex-container3">
+  <div class="a1">
+  <div id="circle1"></div>
+  <h2 >Fantasy</h2>
+  <h3 >Science fiction, Magical realism, Horror</h3>
+  <p id="abz"> Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+  <div class="b1">
+  <div id="circle2"></div>
+  <h2>Drama</h2>
+  <h3 >Melodrama, Comedy, Tragedy</h3>
+  <p id="abz"> Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+  <div class="c1">
+  <div id="circle3"></div>
+  <h2 >Costume movie</h2>
+  <h3 >Historical movies, Western, Eastern</h3>
+  <p id="abz">Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+  <div class="d1">
+  <div id="circle4"></div>
+  <h2 >Cartoon</h2>
+  <h3 >Full-length cartoons, Short cartoons</h3>
+  <p id="abz">Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+  </div>
+  <div class="flex-container2">
+    <div id="cont"> <h1 class="team"><a name = "3">TV SERIES</h1>
+    <div class="hr"> </div></div>
+    </div>
+    <div class="flex-container4">
+  <div class="a1">
+  <div id="pic"></div>
+  <h2 >For kids</h2>
+  <h3 >Cartoons</h3>
+  <p id="abz"> Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+  <div class="b1">
+  <div id="pic1"></div>
+  <h2 >For adults</h2>
+  <h3 >Soap operas, detectives, fantasy</h3>
+  <p id="abz"> Have a nice view, don't forget to bring something to eat ;)</p>
+  </div>
+</div>
+<div class="flex-container1">
+  <div id="cont"> <h1 class="team"><a name = "4">GALLERY</h1>
+  <div class="hr"> </div></div>
+  </div>
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="http://www.geek-point.com.ua/image/cache//data/posters/1/030218/jumanji_welcome_movie_poster-600x500.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="http://www.geek-point.com.ua/image/cache//data/posters/1/030218/summer/Ant-Man-and-the-wasp-Dolby-poster-600x500.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="http://www.geek-point.com.ua/image/cache//data/posters/1/030218/poster2-600x500.jpg" class="d-block w-100" alt="..."></div>
+      <div class="carousel-item">
+        <img src="http://www.geek-point.com.ua/image/cache//data/posters/1/030218/06-600x500.jpg" class="d-block w-100" alt="...">
+</div>
+
+
+
+</div>
+</body>
+</html>
